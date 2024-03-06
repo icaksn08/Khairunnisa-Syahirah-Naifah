@@ -19,8 +19,8 @@ def byseason(df):
     return season_rent
 
 # Import dataframe
-day_data = pd.read_csv("C:\\Users\\DELL\\Downloads\\dashboard\\day_data.csv")
-hour_data = pd.read_csv("C:\\Users\\DELL\\Downloads\\dashboard\\hour_data.csv")
+day_data = pd.read_csv("day_data.csv")
+hour_data = pd.read_csv("hour_data.csv")
 
 # Menyiapkan dataframe yang dikelompokkan
 byhour = byhour(hour_data)
